@@ -1,0 +1,35 @@
+.follow {
+  padding: 40px 0px;
+}
+
+.follow__title {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 39.2px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.follow__imgs {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.follow__img {
+  width: 100%;
+}
+
+@media (max-width: 950px) {
+  .follow__imgs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .follow__imgs {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}

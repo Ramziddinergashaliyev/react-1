@@ -1,0 +1,41 @@
+.shop {
+  background-image: url("../../assets/images/shop-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  margin: 40px 0px;
+  padding-top: 250px;
+}
+
+.shop__line {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #df9b7a;
+  padding: 15px 10px;
+}
+
+.shop__title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+}
+
+.shop__text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width: 680px) {
+  .shop__title,
+  .shop__text {
+    font-size: 14px;
+  }
+}
