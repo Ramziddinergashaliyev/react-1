@@ -6,7 +6,7 @@ import conditionimg from "../../assets/images/img3.png"
 
 function Card() {
   return (
-    <div className="card">
+    <div className="cards">
       <div className="container">
       <h1 className="card__title">Pick a Pretty Bottle</h1>
       <div className="card__rows">

@@ -2,6 +2,7 @@ import './App.css';
 import About from './pages/about/About';
 import Card from './pages/cards/Card';
 import Follow from './pages/follow/Follow';
+import Footer from './pages/footer/Footer';
 import Navbar from './pages/header/Navbar';
 import Hero from './pages/hero/Hero';
 import Meet from './pages/meet/Meet';
@@ -17,6 +18,7 @@ function App() {
        <Shop/>
        <Meet/>
        <Follow/>
+       <Footer/>
     </div>
   );
 }
